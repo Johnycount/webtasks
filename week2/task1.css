@@ -1,0 +1,18 @@
+div.menu{
+				padding-top:10px;
+				text-align: center;
+				width: 300px;
+				height: 30px;
+				background-color:#CCCCCC;
+			}
+
+a{
+				text-decoration: none;
+				border-radius: 8px;
+				border:2px red solid;
+				font-size: 20px;
+				background-color: green;
+				color: white;
+
+
+			}

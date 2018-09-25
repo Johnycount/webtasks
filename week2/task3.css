@@ -1,0 +1,40 @@
+.menu a{
+	color: green;
+}
+
+img{
+	align-self: center;
+	width: 100px;
+	height: 50px;
+}
+.title{
+	margin-left: 30px;
+	font-size: 30px;
+}
+.description{
+	font-size: 17px;
+	margin-left: 30px;
+}
+.attributes{
+	font-size:20px;
+	margin-left: 30px;
+}
+.main_body{
+	padding-top: 0px;
+}
+.item{
+	display: flex;
+	border: 2px solid red;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.city{
+	font-weight: bold;
+}
+.item.urgent{
+	background-color: yellow;
+}
+.price{
+	color: green;
+	background-color: rgba(255,255,0,0.4);
+}
