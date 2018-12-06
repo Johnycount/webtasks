@@ -1,0 +1,68 @@
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+header{
+	background-image: url(images/newt.png);
+	background-size: auto;
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+}
+.logo{
+	float: left;
+	padding: 10px 0;
+	width: 50px;
+	height: 50px;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	font-family: 'Righteous', cursive;
+	position: relative;
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #161616;
+	font-size: 16px;
+}
+nav a:hover{
+	color: 	#FFDF46;
+}
+
+.main_word .picture1{
+	width: 100%;
+	opacity: 0.9;
+
+}
+
+.main_word .sboku{
+	
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #b7763a;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	margin: 250px 50px 0 50px;
+	position	: absolute;
+	top			: -90px;
+	left		: 280px;
+	width		: 100%;
+}
